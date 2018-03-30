@@ -22,14 +22,21 @@
  * - http://ev3.fantastic.computer/doxygen/UartDriver.html (UART handshake
  * sequence Documentation)
  *
+ * Examples utilizing this library can be found under \c examples/
+ *
+ * Tests for this library can be found under \c test/
+ * This library uses \c Catch2 for testing. More information about
+ * \c Catch2 can be found at: https://github.com/catchorg/Catch2
+ *
  * Byte dumps of UART protocol communications from actual LEGO sensors
- * can be found under doc/reference_bitstreams/
+ * can be found under \c doc/reference_bitstreams/
  *
  * Currently, there exists only reference bitstreams for the three LEGO sensors
  * in the LEGO education base set:
  * - LEGO Color sensor
  * - LEGO Ultrasonic distance sensor
  * - LEGO Gyro sensor
+ *
  * More submissions for reference bitstreams are welcome.
  *
  * \warning This library currently relies heavily on GCC defined builtins
