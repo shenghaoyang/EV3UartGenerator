@@ -25,8 +25,7 @@
  *
  * \warning The library currently CANNOT correctly frame floating point numbers
  * for delivery to the EV3 on systems that do not represent floating point
- * numbers in IEEE format, and on systems that do not use little-endian
- * representation for these multi-byte values.
+ * numbers in IEEE format.
  */
 
 #ifndef FRAMING_HPP_

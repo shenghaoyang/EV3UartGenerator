@@ -1,0 +1,244 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+ width="600px" height="806px"
+ viewBox="0 0 600 806"
+ xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges"
+ stroke-width="1" text-rendering="geometricPrecision">
+<polygon fill="white" points="113,7 185,7 185,16 113,16"/>
+<text x="150" y="16" textLength="70" font-family="Helvetica" font-size="12" fill="black" text-anchor="middle">
+
+Color Sensor
+</text>
+<polygon fill="white" points="437,7 461,7 461,16 437,16"/>
+<text x="450" y="16" textLength="23" font-family="Helvetica" font-size="12" fill="black" text-anchor="middle">
+
+EV3
+</text>
+<line x1="150" y1="22" x2="150" y2="50" stroke="black"/>
+<line x1="450" y1="22" x2="450" y2="50" stroke="black"/>
+<line x1="150" y1="33" x2="450" y2="33" stroke="black"/>
+<line x1="450" y1="33" x2="440" y2="39" stroke="black"/>
+<polygon fill="white" points="253,23 346,23 346,32 253,32"/>
+<text x="254" y="32" textLength="91" font-family="Helvetica" font-size="12" fill="black">
+CMD TYPE 0x1d
+</text>
+<line x1="150" y1="50" x2="150" y2="78" stroke="black"/>
+<line x1="450" y1="50" x2="450" y2="78" stroke="black"/>
+<line x1="150" y1="61" x2="450" y2="61" stroke="black"/>
+<line x1="450" y1="61" x2="440" y2="67" stroke="black"/>
+<polygon fill="white" points="232,51 367,51 367,60 232,60"/>
+<text x="233" y="60" textLength="133" font-family="Helvetica" font-size="12" fill="black">
+CMD MODES 0x05 0x02
+</text>
+<line x1="150" y1="78" x2="150" y2="106" stroke="black"/>
+<line x1="450" y1="78" x2="450" y2="106" stroke="black"/>
+<line x1="150" y1="89" x2="450" y2="89" stroke="black"/>
+<line x1="450" y1="89" x2="440" y2="95" stroke="black"/>
+<polygon fill="white" points="229,79 369,79 369,88 229,88"/>
+<text x="230" y="88" textLength="138" font-family="Helvetica" font-size="12" fill="black">
+CMD SPEED 57600 baud
+</text>
+<line x1="150" y1="106" x2="150" y2="134" stroke="black"/>
+<line x1="450" y1="106" x2="450" y2="134" stroke="black"/>
+<line x1="150" y1="117" x2="450" y2="117" stroke="black"/>
+<line x1="450" y1="117" x2="440" y2="123" stroke="black"/>
+<polygon fill="white" points="213,107 386,107 386,116 213,116"/>
+<text x="214" y="116" textLength="171" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 5 NAME COL-CAL
+</text>
+<line x1="150" y1="134" x2="150" y2="162" stroke="black"/>
+<line x1="450" y1="134" x2="450" y2="162" stroke="black"/>
+<line x1="150" y1="145" x2="450" y2="145" stroke="black"/>
+<line x1="450" y1="145" x2="440" y2="151" stroke="black"/>
+<polygon fill="white" points="195,135 403,135 403,144 195,144"/>
+<text x="196" y="144" textLength="206" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 5 SPAN-RAW 0 to 65535
+</text>
+<line x1="150" y1="162" x2="150" y2="190" stroke="black"/>
+<line x1="450" y1="162" x2="450" y2="190" stroke="black"/>
+<line x1="150" y1="173" x2="450" y2="173" stroke="black"/>
+<line x1="450" y1="173" x2="440" y2="179" stroke="black"/>
+<polygon fill="white" points="204,163 395,163 395,172 204,172"/>
+<text x="205" y="172" textLength="189" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 5 SPAN-SI 0 to 65535
+</text>
+<line x1="150" y1="190" x2="150" y2="218" stroke="black"/>
+<line x1="450" y1="190" x2="450" y2="218" stroke="black"/>
+<line x1="150" y1="201" x2="450" y2="201" stroke="black"/>
+<line x1="450" y1="201" x2="440" y2="207" stroke="black"/>
+<polygon fill="white" points="117,191 481,191 481,200 117,200"/>
+<text x="118" y="200" textLength="362" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 5 FORMAT 4 ELEMS DATA16 WIDTH 5 DECIMALS 0
+</text>
+<line x1="150" y1="218" x2="150" y2="246" stroke="black"/>
+<line x1="450" y1="218" x2="450" y2="246" stroke="black"/>
+<line x1="150" y1="229" x2="450" y2="229" stroke="black"/>
+<line x1="450" y1="229" x2="440" y2="235" stroke="black"/>
+<polygon fill="white" points="210,219 389,219 389,228 210,228"/>
+<text x="211" y="228" textLength="177" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 4 NAME RGB-RAW
+</text>
+<line x1="150" y1="246" x2="150" y2="274" stroke="black"/>
+<line x1="450" y1="246" x2="450" y2="274" stroke="black"/>
+<line x1="150" y1="257" x2="450" y2="257" stroke="black"/>
+<line x1="450" y1="257" x2="440" y2="263" stroke="black"/>
+<polygon fill="white" points="187,247 412,247 412,256 187,256"/>
+<text x="188" y="256" textLength="223" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 4 SPAN-RAW 0 to 1020.188
+</text>
+<line x1="150" y1="274" x2="150" y2="302" stroke="black"/>
+<line x1="450" y1="274" x2="450" y2="302" stroke="black"/>
+<line x1="150" y1="285" x2="450" y2="285" stroke="black"/>
+<line x1="450" y1="285" x2="440" y2="291" stroke="black"/>
+<polygon fill="white" points="195,275 403,275 403,284 195,284"/>
+<text x="196" y="284" textLength="206" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 4 SPAN-SI 0 to 1020.188
+</text>
+<line x1="150" y1="302" x2="150" y2="330" stroke="black"/>
+<line x1="450" y1="302" x2="450" y2="330" stroke="black"/>
+<line x1="150" y1="313" x2="450" y2="313" stroke="black"/>
+<line x1="450" y1="313" x2="440" y2="319" stroke="black"/>
+<polygon fill="white" points="117,303 481,303 481,312 117,312"/>
+<text x="118" y="312" textLength="362" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 4 FORMAT 3 ELEMS DATA16 WIDTH 4 DECIMALS 0
+</text>
+<line x1="150" y1="330" x2="150" y2="358" stroke="black"/>
+<line x1="450" y1="330" x2="450" y2="358" stroke="black"/>
+<line x1="150" y1="341" x2="450" y2="341" stroke="black"/>
+<line x1="450" y1="341" x2="440" y2="347" stroke="black"/>
+<polygon fill="white" points="211,331 388,331 388,340 211,340"/>
+<text x="212" y="340" textLength="175" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 3 NAME REF-RAW
+</text>
+<line x1="150" y1="358" x2="150" y2="386" stroke="black"/>
+<line x1="450" y1="358" x2="450" y2="386" stroke="black"/>
+<line x1="150" y1="369" x2="450" y2="369" stroke="black"/>
+<line x1="450" y1="369" x2="440" y2="375" stroke="black"/>
+<polygon fill="white" points="187,359 412,359 412,368 187,368"/>
+<text x="188" y="368" textLength="223" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 3 SPAN-RAW 0 to 1020.188
+</text>
+<line x1="150" y1="386" x2="150" y2="414" stroke="black"/>
+<line x1="450" y1="386" x2="450" y2="414" stroke="black"/>
+<line x1="150" y1="397" x2="450" y2="397" stroke="black"/>
+<line x1="450" y1="397" x2="440" y2="403" stroke="black"/>
+<polygon fill="white" points="195,387 403,387 403,396 195,396"/>
+<text x="196" y="396" textLength="206" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 3 SPAN-SI 0 to 1020.188
+</text>
+<line x1="150" y1="414" x2="150" y2="442" stroke="black"/>
+<line x1="450" y1="414" x2="450" y2="442" stroke="black"/>
+<line x1="150" y1="425" x2="450" y2="425" stroke="black"/>
+<line x1="450" y1="425" x2="440" y2="431" stroke="black"/>
+<polygon fill="white" points="117,415 481,415 481,424 117,424"/>
+<text x="118" y="424" textLength="362" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 3 FORMAT 3 ELEMS DATA16 WIDTH 4 DECIMALS 0
+</text>
+<line x1="150" y1="442" x2="150" y2="470" stroke="black"/>
+<line x1="450" y1="442" x2="450" y2="470" stroke="black"/>
+<line x1="150" y1="453" x2="450" y2="453" stroke="black"/>
+<line x1="450" y1="453" x2="440" y2="459" stroke="black"/>
+<polygon fill="white" points="203,443 396,443 396,452 203,452"/>
+<text x="204" y="452" textLength="191" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 2 NAME COL-COLOR
+</text>
+<line x1="150" y1="470" x2="150" y2="498" stroke="black"/>
+<line x1="450" y1="470" x2="450" y2="498" stroke="black"/>
+<line x1="150" y1="481" x2="450" y2="481" stroke="black"/>
+<line x1="450" y1="481" x2="440" y2="487" stroke="black"/>
+<polygon fill="white" points="209,471 390,471 390,480 209,480"/>
+<text x="210" y="480" textLength="179" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 2 SPAN-RAW 0 to 8
+</text>
+<line x1="150" y1="498" x2="150" y2="526" stroke="black"/>
+<line x1="450" y1="498" x2="450" y2="526" stroke="black"/>
+<line x1="150" y1="509" x2="450" y2="509" stroke="black"/>
+<line x1="450" y1="509" x2="440" y2="515" stroke="black"/>
+<polygon fill="white" points="217,499 382,499 382,508 217,508"/>
+<text x="218" y="508" textLength="163" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 2 SPAN-SI 0 to 8
+</text>
+<line x1="150" y1="526" x2="150" y2="554" stroke="black"/>
+<line x1="450" y1="526" x2="450" y2="554" stroke="black"/>
+<line x1="150" y1="537" x2="450" y2="537" stroke="black"/>
+<line x1="450" y1="537" x2="440" y2="543" stroke="black"/>
+<polygon fill="white" points="223,527 375,527 375,536 223,536"/>
+<text x="224" y="536" textLength="150" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 2 SYMBOL col
+</text>
+<line x1="150" y1="554" x2="150" y2="582" stroke="black"/>
+<line x1="450" y1="554" x2="450" y2="582" stroke="black"/>
+<line x1="150" y1="565" x2="450" y2="565" stroke="black"/>
+<line x1="450" y1="565" x2="440" y2="571" stroke="black"/>
+<polygon fill="white" points="121,555 478,555 478,564 121,564"/>
+<text x="122" y="564" textLength="355" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 2 FORMAT 1 ELEMS DATA8 WIDTH 2 DECIMALS 0
+</text>
+<line x1="150" y1="582" x2="150" y2="610" stroke="black"/>
+<line x1="450" y1="582" x2="450" y2="610" stroke="black"/>
+<line x1="150" y1="593" x2="450" y2="593" stroke="black"/>
+<line x1="450" y1="593" x2="440" y2="599" stroke="black"/>
+<polygon fill="white" points="198,583 401,583 401,592 198,592"/>
+<text x="199" y="592" textLength="201" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 1 NAME COL-AMBIENT
+</text>
+<line x1="150" y1="610" x2="150" y2="638" stroke="black"/>
+<line x1="450" y1="610" x2="450" y2="638" stroke="black"/>
+<line x1="150" y1="621" x2="450" y2="621" stroke="black"/>
+<line x1="450" y1="621" x2="440" y2="627" stroke="black"/>
+<polygon fill="white" points="202,611 397,611 397,620 202,620"/>
+<text x="203" y="620" textLength="193" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 1 SPAN-RAW 0 to 100
+</text>
+<line x1="150" y1="638" x2="150" y2="666" stroke="black"/>
+<line x1="450" y1="638" x2="450" y2="666" stroke="black"/>
+<line x1="150" y1="649" x2="450" y2="649" stroke="black"/>
+<line x1="450" y1="649" x2="440" y2="655" stroke="black"/>
+<polygon fill="white" points="210,639 388,639 388,648 210,648"/>
+<text x="211" y="648" textLength="176" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 1 SPAN-SI 0 to 100
+</text>
+<line x1="150" y1="666" x2="150" y2="694" stroke="black"/>
+<line x1="450" y1="666" x2="450" y2="694" stroke="black"/>
+<line x1="150" y1="677" x2="450" y2="677" stroke="black"/>
+<line x1="450" y1="677" x2="440" y2="683" stroke="black"/>
+<polygon fill="white" points="121,667 478,667 478,676 121,676"/>
+<text x="122" y="676" textLength="355" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 1 FORMAT 1 ELEMS DATA8 WIDTH 3 DECIMALS 0
+</text>
+<line x1="150" y1="694" x2="150" y2="722" stroke="black"/>
+<line x1="450" y1="694" x2="450" y2="722" stroke="black"/>
+<line x1="150" y1="705" x2="450" y2="705" stroke="black"/>
+<line x1="450" y1="705" x2="440" y2="711" stroke="black"/>
+<polygon fill="white" points="197,695 402,695 402,704 197,704"/>
+<text x="198" y="704" textLength="203" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 0 NAME COL-REFLECT
+</text>
+<line x1="150" y1="722" x2="150" y2="750" stroke="black"/>
+<line x1="450" y1="722" x2="450" y2="750" stroke="black"/>
+<line x1="150" y1="733" x2="450" y2="733" stroke="black"/>
+<line x1="450" y1="733" x2="440" y2="739" stroke="black"/>
+<polygon fill="white" points="202,723 397,723 397,732 202,732"/>
+<text x="203" y="732" textLength="193" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 0 SPAN-RAW 0 to 100
+</text>
+<line x1="150" y1="750" x2="150" y2="778" stroke="black"/>
+<line x1="450" y1="750" x2="450" y2="778" stroke="black"/>
+<line x1="150" y1="761" x2="450" y2="761" stroke="black"/>
+<line x1="450" y1="761" x2="440" y2="767" stroke="black"/>
+<polygon fill="white" points="210,751 388,751 388,760 210,760"/>
+<text x="211" y="760" textLength="176" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 0 SPAN-SI 0 to 100
+</text>
+<line x1="150" y1="778" x2="150" y2="806" stroke="black"/>
+<line x1="450" y1="778" x2="450" y2="806" stroke="black"/>
+<line x1="150" y1="789" x2="450" y2="789" stroke="black"/>
+<line x1="450" y1="789" x2="440" y2="795" stroke="black"/>
+<polygon fill="white" points="121,779 478,779 478,788 121,788"/>
+<text x="122" y="788" textLength="355" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 0 FORMAT 1 ELEMS DATA8 WIDTH 3 DECIMALS 0
+</text>
+<line x1="150" y1="800" x2="150" y2="806" stroke="black"/>
+<line x1="450" y1="800" x2="450" y2="806" stroke="black"/>
+</svg>
