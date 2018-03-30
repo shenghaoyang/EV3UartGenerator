@@ -1,8 +1,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
- width="600px" height="806px"
- viewBox="0 0 600 806"
+ width="600px" height="862px"
+ viewBox="0 0 600 862"
  xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges"
  stroke-width="1" text-rendering="geometricPrecision">
 <polygon fill="white" points="113,7 185,7 185,16 113,16"/>
@@ -203,42 +203,58 @@ INFO MODE 1 SPAN-SI 0 to 100
 <line x1="450" y1="666" x2="450" y2="694" stroke="black"/>
 <line x1="150" y1="677" x2="450" y2="677" stroke="black"/>
 <line x1="450" y1="677" x2="440" y2="683" stroke="black"/>
-<polygon fill="white" points="121,667 478,667 478,676 121,676"/>
-<text x="122" y="676" textLength="355" font-family="Helvetica" font-size="12" fill="black">
-INFO MODE 1 FORMAT 1 ELEMS DATA8 WIDTH 3 DECIMALS 0
+<polygon fill="white" points="223,667 376,667 376,676 223,676"/>
+<text x="224" y="676" textLength="151" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 2 SYMBOL pct
 </text>
 <line x1="150" y1="694" x2="150" y2="722" stroke="black"/>
 <line x1="450" y1="694" x2="450" y2="722" stroke="black"/>
 <line x1="150" y1="705" x2="450" y2="705" stroke="black"/>
 <line x1="450" y1="705" x2="440" y2="711" stroke="black"/>
-<polygon fill="white" points="197,695 402,695 402,704 197,704"/>
-<text x="198" y="704" textLength="203" font-family="Helvetica" font-size="12" fill="black">
-INFO MODE 0 NAME COL-REFLECT
+<polygon fill="white" points="121,695 478,695 478,704 121,704"/>
+<text x="122" y="704" textLength="355" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 1 FORMAT 1 ELEMS DATA8 WIDTH 3 DECIMALS 0
 </text>
 <line x1="150" y1="722" x2="150" y2="750" stroke="black"/>
 <line x1="450" y1="722" x2="450" y2="750" stroke="black"/>
 <line x1="150" y1="733" x2="450" y2="733" stroke="black"/>
 <line x1="450" y1="733" x2="440" y2="739" stroke="black"/>
-<polygon fill="white" points="202,723 397,723 397,732 202,732"/>
-<text x="203" y="732" textLength="193" font-family="Helvetica" font-size="12" fill="black">
-INFO MODE 0 SPAN-RAW 0 to 100
+<polygon fill="white" points="197,723 402,723 402,732 197,732"/>
+<text x="198" y="732" textLength="203" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 0 NAME COL-REFLECT
 </text>
 <line x1="150" y1="750" x2="150" y2="778" stroke="black"/>
 <line x1="450" y1="750" x2="450" y2="778" stroke="black"/>
 <line x1="150" y1="761" x2="450" y2="761" stroke="black"/>
 <line x1="450" y1="761" x2="440" y2="767" stroke="black"/>
-<polygon fill="white" points="210,751 388,751 388,760 210,760"/>
-<text x="211" y="760" textLength="176" font-family="Helvetica" font-size="12" fill="black">
-INFO MODE 0 SPAN-SI 0 to 100
+<polygon fill="white" points="202,751 397,751 397,760 202,760"/>
+<text x="203" y="760" textLength="193" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 0 SPAN-RAW 0 to 100
 </text>
 <line x1="150" y1="778" x2="150" y2="806" stroke="black"/>
 <line x1="450" y1="778" x2="450" y2="806" stroke="black"/>
 <line x1="150" y1="789" x2="450" y2="789" stroke="black"/>
 <line x1="450" y1="789" x2="440" y2="795" stroke="black"/>
-<polygon fill="white" points="121,779 478,779 478,788 121,788"/>
-<text x="122" y="788" textLength="355" font-family="Helvetica" font-size="12" fill="black">
+<polygon fill="white" points="210,779 388,779 388,788 210,788"/>
+<text x="211" y="788" textLength="176" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 0 SPAN-SI 0 to 100
+</text>
+<line x1="150" y1="806" x2="150" y2="834" stroke="black"/>
+<line x1="450" y1="806" x2="450" y2="834" stroke="black"/>
+<line x1="150" y1="817" x2="450" y2="817" stroke="black"/>
+<line x1="450" y1="817" x2="440" y2="823" stroke="black"/>
+<polygon fill="white" points="223,807 376,807 376,816 223,816"/>
+<text x="224" y="816" textLength="151" font-family="Helvetica" font-size="12" fill="black">
+INFO MODE 2 SYMBOL pct
+</text>
+<line x1="150" y1="834" x2="150" y2="862" stroke="black"/>
+<line x1="450" y1="834" x2="450" y2="862" stroke="black"/>
+<line x1="150" y1="845" x2="450" y2="845" stroke="black"/>
+<line x1="450" y1="845" x2="440" y2="851" stroke="black"/>
+<polygon fill="white" points="121,835 478,835 478,844 121,844"/>
+<text x="122" y="844" textLength="355" font-family="Helvetica" font-size="12" fill="black">
 INFO MODE 0 FORMAT 1 ELEMS DATA8 WIDTH 3 DECIMALS 0
 </text>
-<line x1="150" y1="800" x2="150" y2="806" stroke="black"/>
-<line x1="450" y1="800" x2="450" y2="806" stroke="black"/>
+<line x1="150" y1="856" x2="150" y2="862" stroke="black"/>
+<line x1="450" y1="856" x2="450" y2="862" stroke="black"/>
 </svg>

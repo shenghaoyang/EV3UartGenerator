@@ -30,11 +30,13 @@ msc {
     cs->ev3 [label = "INFO MODE 1 NAME COL-AMBIENT"];
     cs->ev3 [label = "INFO MODE 1 SPAN-RAW 0 to 100"];
     cs->ev3 [label = "INFO MODE 1 SPAN-SI 0 to 100"];
+    cs->ev3 [label = "INFO MODE 2 SYMBOL pct"];
     cs->ev3 [label = "INFO MODE 1 FORMAT 1 ELEMS DATA8 WIDTH 3 DECIMALS 0"];
     
     cs->ev3 [label = "INFO MODE 0 NAME COL-REFLECT"];
     cs->ev3 [label = "INFO MODE 0 SPAN-RAW 0 to 100"];
     cs->ev3 [label = "INFO MODE 0 SPAN-SI 0 to 100"];
+    cs->ev3 [label = "INFO MODE 2 SYMBOL pct"];
     cs->ev3 [label = "INFO MODE 0 FORMAT 1 ELEMS DATA8 WIDTH 3 DECIMALS 0"];
 }
     
