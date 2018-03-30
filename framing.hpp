@@ -73,6 +73,9 @@ namespace Framing {
 	 * modes visible [0, 7] to the user
 	 * @return  length of framed message (written to the buffer), if positive.
 	 * @retval -1 on error (not used)
+	 *
+	 * @note Only the three least significant mode number bits are
+	 * considered. No out-of-range values will be passed to the EV3.
 	 */
 	int8_t frame_cmd_modes_message(uint8_t* dest, const uint8_t modes,
 			const uint8_t modes_visible);
@@ -119,6 +122,9 @@ namespace Framing {
 	 * @param name mode name [1 to 32 ASCII byte characters in length]
 	 * @return length of framed message (written to the buffer), if positive.
 	 * @retval -1 on error (length overrun / underrun / name == nullptr)
+	 *
+	 * @note Only the three least significant mode number bits are
+	 * considered. No out-of-range values will be passed to the EV3.
 	 */
 	int8_t frame_info_message_name(uint8_t* dest, const uint8_t mode,
 			const char* name);
@@ -142,6 +148,8 @@ namespace Framing {
 	 * \warning this function MUST NOT be used in environments where the
 	 * representation of single precision floating point numbers does not
 	 * follow the IEEE standard.
+	 * @note Only the three least significant mode number bits are
+	 * considered. No out-of-range values will be passed to the EV3.
 	 */
 	int8_t frame_info_message_span(uint8_t* dest, const uint8_t mode,
 			Magics::INFO_SPAN span_type,
@@ -159,6 +167,9 @@ namespace Framing {
 	 * length]
 	 * @return length of framed message (written to the buffer), if positive.
 	 * @retval -1 on error (length overrun / underrun / symbol == nullptr)
+	 *
+	 * @note Only the three least significant mode number bits are
+	 * considered. No out-of-range values will be passed to the EV3.
 	 */
 	int8_t frame_info_message_symbol(uint8_t* dest, const uint8_t mode,
 			const char* symbol);
@@ -186,6 +197,11 @@ namespace Framing {
 	 * to display readings from the sensor [0, 15]
 	 * @return length of framed message (written to the buffer), if positive.
 	 * @retval -1 on error (not used)
+	 *
+	 * @note Only the three least significant mode number bits are
+	 * considered, and only the four least significant bits of the
+	 * \c width and \c decimals parameter are considered.
+	 * No out-of-range values will be passed to the EV3.
 	 */
 	int8_t frame_info_message_format(uint8_t* dest, const uint8_t mode,
 			const uint8_t elems,
@@ -202,6 +218,9 @@ namespace Framing {
 	 * @param len length of data to be sent [1, 32]
 	 * @return length of framed message (written to the buffer), if positive.
 	 * @retval -1 on error (length overrun)
+	 *
+	 * @note Only the three least significant mode number bits are
+	 * considered. No out-of-range values will be passed to the EV3.
 	 */
 	int8_t frame_data_message(uint8_t* dest, const uint8_t mode,
 			const uint8_t* data,
