@@ -1,0 +1,5 @@
+/Debug/
+/doc/html/
+/doc/latex/
+/doc/*.bak
+main.cpp
