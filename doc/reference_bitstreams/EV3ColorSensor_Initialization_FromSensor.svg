@@ -133,7 +133,7 @@ INFO MODE 3 SPAN-SI 0 to 1020.188
 <line x1="450" y1="425" x2="440" y2="431" stroke="black"/>
 <polygon fill="white" points="117,415 481,415 481,424 117,424"/>
 <text x="118" y="424" textLength="362" font-family="Helvetica" font-size="12" fill="black">
-INFO MODE 3 FORMAT 3 ELEMS DATA16 WIDTH 4 DECIMALS 0
+INFO MODE 3 FORMAT 2 ELEMS DATA16 WIDTH 4 DECIMALS 0
 </text>
 <line x1="150" y1="442" x2="150" y2="470" stroke="black"/>
 <line x1="450" y1="442" x2="450" y2="470" stroke="black"/>

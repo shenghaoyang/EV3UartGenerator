@@ -1,5 +1,5 @@
 This file contains the UART bitstream as received by the EV3 when the 
-color sensor presents itself for initialization.
+ultrasonic sensor presents itself for initialization.
 
 The capture starts from the first CMD byte and ends with the last ACK byte 
 received by the EV3. 

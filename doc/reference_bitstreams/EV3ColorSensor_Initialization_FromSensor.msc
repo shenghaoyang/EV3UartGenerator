@@ -19,7 +19,7 @@ msc {
     cs->ev3 [label = "INFO MODE 3 NAME REF-RAW"];
     cs->ev3 [label = "INFO MODE 3 SPAN-RAW 0 to 1020.188"];
     cs->ev3 [label = "INFO MODE 3 SPAN-SI 0 to 1020.188"];
-    cs->ev3 [label = "INFO MODE 3 FORMAT 3 ELEMS DATA16 WIDTH 4 DECIMALS 0"];
+    cs->ev3 [label = "INFO MODE 3 FORMAT 2 ELEMS DATA16 WIDTH 4 DECIMALS 0"];
     
     cs->ev3 [label = "INFO MODE 2 NAME COL-COLOR"];
     cs->ev3 [label = "INFO MODE 2 SPAN-RAW 0 to 8"];
