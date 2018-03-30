@@ -51,7 +51,7 @@ namespace Framing {
 		memcpy(reinterpret_cast<void*>(dest),
 				reinterpret_cast<const void*>(&speed_conv), sizeof(speed_conv));
 		dest += 4;
-		*dest = checksum(orig_dest, 0x04);
+		*dest = checksum(orig_dest, 0x05);
 		return 0x06;
 	}
 
