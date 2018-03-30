@@ -1,5 +1,10 @@
-/Debug/
+Debug/
 /doc/html/
 /doc/latex/
 /doc/*.bak
 main.cpp
+/Test/
+.cproject
+.project
+/.settings/
+.gitignore
