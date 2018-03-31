@@ -37,7 +37,7 @@ namespace EV3UartGenerator {
 namespace Framing {
 	constexpr uint8_t BUFFER_MIN { 0x23 }; ///< Minimum size of the buffer (in bytes) that the user has to provide to each of the framing functions, to avoid any chance of a buffer overflow.
 	constexpr uint8_t PAYLOAD_SENSOR_TO_EV3_MAX { 0x20 }; ///< Maximum size of any payload sent in the EV3 UART sensor protocol, in bytes, to the EV3
-	constexpr uint8_t PAYLOAD_EV3_TO_SENSOR_MAX { 0x18 }; ///< Maximum size of any payload sent in the EV3 UART sensor protocol, in bytes, from the EV3 to the sensor.
+	constexpr uint8_t PAYLOAD_EV3_TO_SENSOR_MAX { 0x20 }; ///< Maximum size of any payload sent in the EV3 UART sensor protocol, in bytes, from the EV3 to the sensor.
 	constexpr uint8_t PAYLOAD_MIN { 0x01 }; ///< Minimum size of any payload sent in the EV3 UART sensor protocol, regardless of direction, in bytes.
 	constexpr uint8_t SYMBOL_MAX { 0x08 }; ///< Maximum length of the string representation (ASCII) of any symbol referencing a the SI unit used to represent the data output from a sensor, in a particular mode.
 	/**
@@ -106,7 +106,8 @@ namespace Framing {
 	 *
 	 * @param dest destination buffer
 	 * @param data data to write to the sensor
-	 * @param len length of array of data to write to the sensor [1, 32]
+	 * @param len length of array of data to write to the sensor
+	 * [PAYLOAD_MIN, PAYLOAD_EV3_TO_SENSOR_MAX]
 	 * @return length of framed message (written to the buffer), if positive.
 	 * @retval -1 on error (length overrun / underrun)
 	 */
@@ -119,7 +120,10 @@ namespace Framing {
 	 *
 	 * @param dest destination buffer
 	 * @param mode mode index [0, 7]
-	 * @param name mode name [1 to 32 ASCII byte characters in length]
+	 * @param name mode name, a character sequence encoded in 1-byte
+	 * ASCII representation, with terminating null, with
+	 * length (not inclusive of null byte) in range
+	 * [PAYLOAD_MIN, PAYLOAD_SENSOR_TO_EV3_MAX]
 	 * @return length of framed message (written to the buffer), if positive.
 	 * @retval -1 on error (length overrun / underrun / name == nullptr)
 	 *
@@ -163,8 +167,10 @@ namespace Framing {
 	 *
 	 * @param dest destination buffer
 	 * @param mode mode index [0 - 7]
-	 * @param symbol symbol text representation string [1 to 8 ASCII bytes in
-	 * length]
+	 * @param symbol symbol text representation string, a string of
+	 * characters encoded in 1-byte ASCII with terminating null byte,
+	 *  with length (not including terminating null) in range
+	 * [PAYLOAD_MIN, PAYLOAD_SENSOR_TO_EV3_MAX]
 	 * @return length of framed message (written to the buffer), if positive.
 	 * @retval -1 on error (length overrun / underrun / symbol == nullptr)
 	 *
@@ -188,7 +194,7 @@ namespace Framing {
 	 * --------- | -----------------------
 	 * S8		 | [1, 32]
 	 * S16		 | [1, 16]
-	 * Sr32		 | [1, 8]
+	 * S32		 | [1, 8]
 	 * F32		 | [1, 8]
 	 * @param data_type type of data elements
 	 * @param width number of characters (including decimal separator) used
@@ -215,7 +221,8 @@ namespace Framing {
 	 * @param dest destination buffer
 	 * @param mode mode index [0, 7]
 	 * @param data data to be sent
-	 * @param len length of data to be sent [1, 32]
+	 * @param len length of data to be sent, with length in range
+	 * [PAYLOAD_MIN, PAYLOAD_SENSOR_TO_EV3_MAX]
 	 * @return length of framed message (written to the buffer), if positive.
 	 * @retval -1 on error (length overrun)
 	 *
@@ -255,7 +262,8 @@ namespace Framing {
 	 * Calculates the value that is to be OR'd into the message type byte
 	 * to represent the length of the payload in the message.
 	 *
-	 * @param len length of the payload [1, 32]
+	 * @param len length of the payload
+	 * [PAYLOAD_MIN, PAYLOAD_SENSOR_TO_EV3_MAX]
 	 * @return value to be OR'd into the message type byte to represent
 	 * the length of the payload in the message.
 	 */
@@ -269,7 +277,8 @@ namespace Framing {
 	 *
 	 * @param dest address of the byte right after the end of the
 	 * payload segment
-	 * @param len length of payload segment [1, 32]
+	 * @param len length of payload segment
+	 * [PAYLOAD_MIN, PAYLOAD_SENSOR_TO_EV3_MAX]
 	 * @return number of padding bytes written
 	 */
 	uint8_t insert_padding(uint8_t* dest, uint8_t len);
